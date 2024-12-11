@@ -1,0 +1,1 @@
+alert('Buna ziua sunt un fisier extern');
