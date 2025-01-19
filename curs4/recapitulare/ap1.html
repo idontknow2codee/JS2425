@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1 - imi arata 5 in consola
+        //x = 5;
+        //console.log(x);
+        //var x;
+
+        //2 - mai intai salvez zona de memorie var si ultima console
+        //console.log(x);
+        //var x;
+        //x = 5
+
+        //3 - incorect ca nu am setat zona de memorie let
+        //x = 5;
+        //console.log(x);
+        //let x;
+
+        //4 - corect
+        //let x;
+        //x = 5;
+        //console.log(x);
+
+        //5 - instructiune gresita, bucla infinita, nu am incrementare, nu am nimic
+        //for(;;)
+        //{
+        //console.log("Hello");
+        //}
+
+        //6 - repeta instructiunea de 5 ori, i din 2in2, j din 4 in 4, u descrescator
+        //for(i=0, j=10, u=25; i<20 && jj<30 && u>15; i+=2, j+=4, u--){
+        //   console.log("i:" + i + "j:" + j + "u:" +u);
+        //}
+
+        //7 - myarr e array cu proprietatea de lungime, new arr e obiect, fara proprietatea de lungime, dar amandoua sunt vazut ca obiecte.
+        //var myArr = ['a', 'b', 'c'];
+        //var newArr = {
+        //    0: 'a',
+        //    1: 'b',
+        //    2: 'c'
+        //}
+        //console.log(typeof myArr);
+        //console.log(myArr);
+        //console.log(typeof newArr);
+        //console.log(newArr);
+
+        // var myArr = ['Laptop', 'TV', 'Mobile', 'Desktop', 'Monitor1'];
+        // myArr[5]= 'Book';
+        // myArr[3]= 'Mouse';
+        // myArr[8]= 'Tastatura';
+        // myArr['birou'] = 'Birou';
+        // var newArr = {
+        //     0: 'a',
+        //     1: 'b',
+        //     2: 'c'
+        // };
+        // for(let i = 0; i<myArr.length; i++){
+        //     if( (typeof myArr [i]) != 'undefined'){
+        //         document.write('<p>' + myArr[i] + '<p>')
+        //     }
+        // }
+
+        // console.log(typeof myArr);
+        // console.log(myArr('birou'));
+        // console.log(typeof newArr);
+        // console.log(newArr);
+
+
+        //8
+        // const person1 = {
+        // 'firstName':"John",
+        // 'lastName': "Doe",
+        // 'age':46
+        // }
+
+        // const person2 = {
+        //     'firstName':  "John",
+        //     'lastName': "Doe",
+        //     'age': 46
+        // }
+        // const newPerson = person1;
+        // console.log(newPerson == person1);
+        // console.log(person2 == person1);
+        // console.log(newPerson.lenght);
+
+        //9 - un array cu 3 la care se mai adauga pe linie d, adica cu 4 elemente in lungime
+        // var myArr = ['a', 'b', 'c'];
+        // console.log(myArr.length);
+        // myArr[3]='d';
+        // console.log( myArr.length);
+
+        //10 - un arr cu 4, nu se mai adauga h, chiar daca e in linie
+        var newArr = ['d', 'e', 'f', 'g'];
+        console.log(newArr.length);
+        newArr['h'] = 'h';
+        console.log(newArr.length);
+    </script>
+</body>
+</html>
